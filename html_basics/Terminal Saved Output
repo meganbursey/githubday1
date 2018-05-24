@@ -1,0 +1,460 @@
+Last login: Tue May 15 08:45:12 on ttys000
+Megans-MacBook-Air:~ meganbursey$ ruby rubyhomework15.rb
+ruby: No such file or directory -- rubyhomework15.rb (LoadError)
+Megans-MacBook-Air:~ meganbursey$ cd desktop
+Megans-MacBook-Air:desktop meganbursey$ cd tts
+Megans-MacBook-Air:tts meganbursey$ ls
+bootstrap		newruby.rb		travel.html
+day1			ruby101			travel2.html
+firstprogram.rb		rubyhomework15.rb	weekone
+html_basics		rubytuesday.rb
+Megans-MacBook-Air:tts meganbursey$ ruby rubyhomework15.rb
+rubyhomework15.rb:13: syntax error, unexpected ':'
+def getLetterGrade(score):
+                          ^
+rubyhomework15.rb:15: syntax error, unexpected ':', expecting keyword_then or ';' or '\n'
+    if  score >= 90: return "A"
+                    ^
+rubyhomework15.rb:16: syntax error, unexpected ':', expecting keyword_then or ';' or '\n'
+    if  90 > score >= 80: return "B"
+                         ^
+rubyhomework15.rb:17: syntax error, unexpected ':', expecting keyword_then or ';' or '\n'
+    if  80 > score >= 70: return "C"
+                         ^
+rubyhomework15.rb:18: syntax error, unexpected ':', expecting keyword_then or ';' or '\n'
+    if  70 > score >= 60: return "D"
+                         ^
+rubyhomework15.rb:19: syntax error, unexpected ':', expecting keyword_then or ';' or '\n'
+    if  60 > score: return "F"
+                   ^
+Megans-MacBook-Air:tts meganbursey$ cd desktop
+-bash: cd: desktop: No such file or directory
+Megans-MacBook-Air:tts meganbursey$ cd tts
+-bash: cd: tts: No such file or directory
+Megans-MacBook-Air:tts meganbursey$ ls
+bootstrap		newruby.rb		travel.html
+day1			ruby101			travel2.html
+firstprogram.rb		rubyhomework15.rb	weekone
+html_basics		rubytuesday.rb
+Megans-MacBook-Air:tts meganbursey$ rubyhomework15.rb
+-bash: rubyhomework15.rb: command not found
+Megans-MacBook-Air:tts meganbursey$ ruby rubyhomework15.rb
+rubyhomework15.rb:13: syntax error, unexpected ':'
+def getLetterGrade(score):
+                          ^
+rubyhomework15.rb:15: syntax error, unexpected ':', expecting keyword_then or ';' or '\n'
+    if  score >= 90: return "A"
+                    ^
+rubyhomework15.rb:16: syntax error, unexpected ':', expecting keyword_then or ';' or '\n'
+    if  90 > score >= 80: return "B"
+                         ^
+rubyhomework15.rb:17: syntax error, unexpected ':', expecting keyword_then or ';' or '\n'
+    if  80 > score >= 70: return "C"
+                         ^
+rubyhomework15.rb:18: syntax error, unexpected ':', expecting keyword_then or ';' or '\n'
+    if  70 > score >= 60: return "D"
+                         ^
+rubyhomework15.rb:19: syntax error, unexpected ':', expecting keyword_then or ';' or '\n'
+    if  60 > score: return "F"
+                   ^
+Megans-MacBook-Air:tts meganbursey$ ruby rubyhomework15.rb
+rubyhomework15.rb:13: syntax error, unexpected ':'
+def getLetterGrade(score):
+                          ^
+rubyhomework15.rb:16: syntax error, unexpected ':', expecting keyword_then or ';' or '\n'
+    if score < 60: score = 59 # 'F'
+                  ^
+rubyhomework15.rb:17: syntax error, unexpected ':', expecting keyword_then or ';' or '\n'
+    if score > 90: score = 90 # 'A'
+                  ^
+rubyhomework15.rb:19: syntax error, unexpected end-of-input, expecting keyword_end
+Megans-MacBook-Air:tts meganbursey$ ruby rubyhomework15.rb
+rubyhomework15.rb:13: syntax error, unexpected ':'
+def getLetterGrade (score):
+                           ^
+rubyhomework15.rb:15: syntax error, unexpected ':', expecting keyword_then or ';' or '\n'
+    if score >= 90: return 'A'
+                   ^
+rubyhomework15.rb:16: syntax error, unexpected ':', expecting keyword_end
+    elif score >= 80: return 'B'
+                     ^
+rubyhomework15.rb:17: syntax error, unexpected ':', expecting keyword_end
+    elif score >= 70: return 'C'
+                     ^
+rubyhomework15.rb:18: syntax error, unexpected ':', expecting keyword_end
+    elif score >= 60: return 'D'
+                     ^
+rubyhomework15.rb:19: syntax error, unexpected ':'
+    else: return 'F'
+         ^
+rubyhomework15.rb:19: warning: else without rescue is useless
+rubyhomework15.rb:19: syntax error, unexpected end-of-input, expecting keyword_end
+    else: return 'F'
+                    ^
+Megans-MacBook-Air:tts meganbursey$ ruby rubyhomework15.rb
+rubyhomework15.rb:14: syntax error, unexpected ':'
+def getLetterGrade (score):
+                           ^
+rubyhomework15.rb:16: syntax error, unexpected ':', expecting keyword_then or ';' or '\n'
+    if score >= 90: return 'A'
+                   ^
+rubyhomework15.rb:17: syntax error, unexpected ':', expecting keyword_end
+    elif score >= 80: return 'B'
+                     ^
+rubyhomework15.rb:18: syntax error, unexpected ':', expecting keyword_end
+    elif score >= 70: return 'C'
+                     ^
+rubyhomework15.rb:19: syntax error, unexpected ':', expecting keyword_end
+    elif score >= 60: return 'D'
+                     ^
+rubyhomework15.rb:20: syntax error, unexpected ':'
+    else: return 'F'
+         ^
+rubyhomework15.rb:20: warning: else without rescue is useless
+rubyhomework15.rb:20: syntax error, unexpected end-of-input, expecting keyword_end
+    else: return 'F'
+                    ^
+Megans-MacBook-Air:tts meganbursey$ ruby rubyhomework15.rb
+rubyhomework15.rb:14: syntax error, unexpected ':'
+def getLetterGrade (score):
+                           ^
+rubyhomework15.rb:16: syntax error, unexpected ':', expecting keyword_then or ';' or '\n'
+    if score >= 90: return 'A'
+                   ^
+rubyhomework15.rb:17: syntax error, unexpected ':', expecting keyword_end
+    elif score >= 80: return 'B'
+                     ^
+rubyhomework15.rb:18: syntax error, unexpected ':', expecting keyword_end
+    elif score >= 70: return 'C'
+                     ^
+rubyhomework15.rb:19: syntax error, unexpected ':', expecting keyword_end
+    elif score >= 60: return 'D'
+                     ^
+rubyhomework15.rb:20: syntax error, unexpected ':'
+    else: return 'F'
+         ^
+rubyhomework15.rb:21: warning: else without rescue is useless
+Megans-MacBook-Air:tts meganbursey$ ruby rubyhomework15.rb
+rubyhomework15.rb:14: syntax error, unexpected ':'
+def getLetterGrade (score):
+                           ^
+rubyhomework15.rb:16: syntax error, unexpected ':', expecting keyword_then or ';' or '\n'
+    if score >= 90: return 'A'
+                   ^
+rubyhomework15.rb:17: syntax error, unexpected keyword_elsif, expecting keyword_end
+    elsif score >= 80: return 'B'
+         ^
+rubyhomework15.rb:17: syntax error, unexpected ':', expecting keyword_end
+    elsif score >= 80: return 'B'
+                      ^
+rubyhomework15.rb:18: syntax error, unexpected keyword_elsif, expecting keyword_end
+    elsif score >= 70: return 'C'
+         ^
+rubyhomework15.rb:18: syntax error, unexpected ':', expecting keyword_end
+    elsif score >= 70: return 'C'
+                      ^
+rubyhomework15.rb:19: syntax error, unexpected keyword_elsif, expecting keyword_end
+    elsif score >= 60: return 'D'
+         ^
+rubyhomework15.rb:19: syntax error, unexpected ':', expecting keyword_end
+    elsif score >= 60: return 'D'
+                      ^
+rubyhomework15.rb:20: syntax error, unexpected ':'
+    else: return 'F'
+         ^
+rubyhomework15.rb:21: warning: else without rescue is useless
+Megans-MacBook-Air:tts meganbursey$ ruby rubyhomework15.rb
+rubyhomework15.rb:14: syntax error, unexpected ':'
+def getLetterGrade (score):
+                           ^
+rubyhomework15.rb:16: syntax error, unexpected ':', expecting keyword_then or ';' or '\n'
+    if score >= 90: return 'A'
+                   ^
+rubyhomework15.rb:17: syntax error, unexpected keyword_elsif, expecting keyword_end
+    elsif score >= 80: return 'B'
+         ^
+rubyhomework15.rb:17: syntax error, unexpected ':', expecting keyword_end
+    elsif score >= 80: return 'B'
+                      ^
+rubyhomework15.rb:18: syntax error, unexpected keyword_elsif, expecting keyword_end
+    elsif score >= 70: return 'C'
+         ^
+rubyhomework15.rb:18: syntax error, unexpected ':', expecting keyword_end
+    elsif score >= 70: return 'C'
+                      ^
+rubyhomework15.rb:19: syntax error, unexpected keyword_elsif, expecting keyword_end
+    elsif score >= 60: return 'D'
+         ^
+rubyhomework15.rb:19: syntax error, unexpected ':', expecting keyword_end
+    elsif score >= 60: return 'D'
+                      ^
+rubyhomework15.rb:20: syntax error, unexpected ':'
+    else: return 'F'
+         ^
+rubyhomework15.rb:21: warning: else without rescue is useless
+Megans-MacBook-Air:tts meganbursey$ ruby rubyhomework15.rb
+enter your score
+98
+Well done, you got an A!
+Megans-MacBook-Air:tts meganbursey$ ruby rubyhomework15.rb
+enter your score
+87
+You got a B, very nice
+Megans-MacBook-Air:tts meganbursey$ ruby rubyhomework15.rb
+rubyhomework15.rb:24: syntax error, unexpected '>'
+elsif score <69 && >60
+                    ^
+Megans-MacBook-Air:tts meganbursey$ def getLetterGrade (score):
+-bash: syntax error near unexpected token `('
+Megans-MacBook-Air:tts meganbursey$     score = round(score)
+-bash: syntax error near unexpected token `('
+Megans-MacBook-Air:tts meganbursey$     if score >= 90: return 'A'
+>     elif score >= 80: return 'B'
+-bash: syntax error near unexpected token `elif'
+Megans-MacBook-Air:tts meganbursey$     elif score >= 70: return 'C'
+-bash: syntax error near unexpected token `elif'
+Megans-MacBook-Air:tts meganbursey$     elif score >= 60: return 'D'
+-bash: syntax error near unexpected token `elif'
+Megans-MacBook-Air:tts meganbursey$     else: return 'F'
+-bash: else:: command not found
+Megans-MacBook-Air:tts meganbursey$ ruby rubyhomework15.rb
+rubyhomework15.rb:24: syntax error, unexpected '>'
+elsif score <69 && >60
+                    ^
+Megans-MacBook-Air:tts meganbursey$ ruby rubyhomework15.rb
+rubyhomework15.rb:24: syntax error, unexpected '>'
+elsif score <69 && >60
+                    ^
+Megans-MacBook-Air:tts meganbursey$ ruby rubyhomework15.rb
+rubyhomework15.rb:24: syntax error, unexpected '>'
+elsif score <69 && >60
+                    ^
+Megans-MacBook-Air:tts meganbursey$ ruby rubyhomework15.rb
+rubyhomework15.rb:24: syntax error, unexpected '>'
+elsif score <69 && >60
+                    ^
+Megans-MacBook-Air:tts meganbursey$ ruby rubyhomework15.rb
+Enter your score
+90
+Well done, you got an A!
+Megans-MacBook-Air:tts meganbursey$ ruby rubyhomework15.rb
+Enter your score
+67
+It's a D for you
+Megans-MacBook-Air:tts meganbursey$ ruby rubyhomework15.rb
+Enter your score
+45
+You failed with a big F
+Megans-MacBook-Air:tts meganbursey$ ruby rubyhomework15.rb
+rubyhomework15.rb:34: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+mbers from the user, finds out if the
+                              ^
+rubyhomework15.rb:35: syntax error, unexpected tIDENTIFIER, expecting '('
+y the second. If not divisible, let the user know
+                              ^
+rubyhomework15.rb:35: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+ond. If not divisible, let the user know
+                              ^
+Megans-MacBook-Air:tts meganbursey$ ruby rubyhomework15.rb
+enter any number
+8
+enter any number
+2
+Megans-MacBook-Air:tts meganbursey$ 9
+-bash: 9: command not found
+Megans-MacBook-Air:tts meganbursey$ 5
+-bash: 5: command not found
+Megans-MacBook-Air:tts meganbursey$ 5
+-bash: 5: command not found
+Megans-MacBook-Air:tts meganbursey$ ruby rubyhomework15.rb
+enter any number
+9
+enter any number
+5
+sorry, 4
+Megans-MacBook-Air:tts meganbursey$ ruby rubyhomework15.rb
+enter any number
+1000
+enter any number
+100
+Megans-MacBook-Air:tts meganbursey$ 90000
+-bash: 90000: command not found
+Megans-MacBook-Air:tts meganbursey$ ruby rubyhomework15.rb
+enter any number
+90000
+enter any number
+343
+sorry, 134
+Megans-MacBook-Air:tts meganbursey$ ruby rubyhomework15.rb
+    
+Megans-MacBook-Air:tts meganbursey$ ruby rubyhomework15.rb
+        
+Megans-MacBook-Air:tts meganbursey$ ruby rubyhomework15.rb
+
+Megans-MacBook-Air:tts meganbursey$ ruby rubyhomework15.rb
+rubyhomework15.rb:60: syntax error, unexpected keyword_end, expecting end-of-input
+Megans-MacBook-Air:tts meganbursey$ clear
+
+Megans-MacBook-Air:tts meganbursey$ ruby rubyhomework15.rb
+rubyhomework15.rb:60: syntax error, unexpected keyword_end, expecting end-of-input
+Megans-MacBook-Air:tts meganbursey$ ruby rubyhomework15.rb
+rubyhomework15.rb:60: syntax error, unexpected keyword_end, expecting end-of-input
+Megans-MacBook-Air:tts meganbursey$ ruby rubyhomework15.rb
+close
+Megans-MacBook-Air:tts meganbursey$ ruby rubyhomework15.rb
+close
+Megans-MacBook-Air:tts meganbursey$ ruby rubyhomework15.rb
+close   
+["c", "l", "o", "s", "e"]Megans-MacBook-Air:tts meganbursey$ ruby rubyhomework15.rb
+Enter any word you like
+summer
+["s", "u", "m", "m", "e", "r"]Megans-MacBook-Air:tts meganbursey$ ruby rubyhomework15.rb
+Enter any word you like
+hello
+["h", "e", "l", "l", "o"]h
+e
+l
+l
+o
+Megans-MacBook-Air:tts meganbursey$ ruby rubyhomework15.rb
+Enter any word you like
+cat
+["c", "a", "t"]c
+a
+t
+Megans-MacBook-Air:tts meganbursey$ ruby rubyhomework15.rb
+Enter any word you like
+cat
+["c", "a", "t"]rubyhomework15.rb:61:in `<main>': undefined local variable or method `br' for main:Object (NameError)
+Megans-MacBook-Air:tts meganbursey$ ruby rubyhomework15.rb
+Enter any word you like
+cat
+["c", "a", "t"]
+c
+a
+t
+Megans-MacBook-Air:tts meganbursey$ ruby rubyhomework15.rb
+rubyhomework15.rb:72: syntax error, unexpected end-of-input, expecting keyword_end
+Megans-MacBook-Air:tts meganbursey$ ruby rubyhomework15.rb
+Enter any word you like
+hello
+["h", "e", "l", "l", "o"]
+h
+e
+l
+l
+o
+h
+e
+l
+l
+o
+Megans-MacBook-Air:tts meganbursey$ ruby rubyhomework15.rb
+Enter any word you like
+hello
+["h", "e", "l", "l", "o"]
+h
+e
+l
+l
+o
+h,
+e,
+l,
+l,
+o,
+Megans-MacBook-Air:tts meganbursey$ ruby rubyhomework15.rb
+Enter any word you like
+sun
+["s", "u", "n"]
+s
+u
+n
+s,
+u,
+n,
+Megans-MacBook-Air:tts meganbursey$ ruby rubyhomework15.rb
+Enter any word you like
+hot
+["h", "o", "t"]
+h
+o
+t
+h,
+o,
+t,
+Megans-MacBook-Air:tts meganbursey$ ruby rubyhomework15.rb
+Enter any word you like
+hot
+["h", "o", "t"]
+h,
+o,
+t,
+Megans-MacBook-Air:tts meganbursey$ ruby rubyhomework15.rb
+close
+Megans-MacBook-Air:tts meganbursey$ ruby rubyhomework15.rb
+
+Megans-MacBook-Air:tts meganbursey$ ruby rubyhomework15.rb
+Megans-MacBook-Air:tts meganbursey$ what a pretty boy
+a: No such file or directory
+Megans-MacBook-Air:tts meganbursey$ what a pretty boy
+a: No such file or directory
+Megans-MacBook-Air:tts meganbursey$ ruby rubyhomework15.rb
+Megans-MacBook-Air:tts meganbursey$ ruby rubyhomework15.rb
+Megans-MacBook-Air:tts meganbursey$ ruby rubyhomework15.rb
+Megans-MacBook-Air:tts meganbursey$ hi
+-bash: hi: command not found
+Megans-MacBook-Air:tts meganbursey$ ruby rubyhomework15.rb
+give me a word
+hi
+["h", "i"]Megans-MacBook-Air:tts meganbursey$ ruby rubyhomework15.rb
+rubyhomework15.rb:105: syntax error, unexpected end-of-input, expecting keyword_end
+Megans-MacBook-Air:tts meganbursey$ ruby rubyhomework15.rb
+give me a word
+howdy
+["h", "o", "w", "d", "y"]rubyhomework15.rb:93:in `<main>': undefined method `first=' for ["h", "o", "w", "d", "y"]:Array (NoMethodError)
+Did you mean?  first
+Megans-MacBook-Air:tts meganbursey$ ruby rubyhomework15.rb
+give me a word
+apple
+["a", "p", "p", "l", "e"]appleway
+Megans-MacBook-Air:tts meganbursey$ ruby rubyhomework15.rb
+give me a word
+elephant
+["e", "l", "e", "p", "h", "a", "n", "t"]rubyhomework15.rb:82:in `<main>': undefined method `first=' for ["e", "l", "e", "p", "h", "a", "n", "t"]:Array (NoMethodError)
+Did you mean?  first
+Megans-MacBook-Air:tts meganbursey$ ruby rubyhomework15.rb
+give me a word
+^[[A^[[A^[[A^[[Aclose
+["\e", "[", "a", "\e", "[", "a", "\e", "[", "a", "\e", "[", "a", "c", "l", "o", "s", "e"]rubyhomework15.rb:82:in `<main>': undefined method `first=' for #<Array:0x007fd13a818838> (NoMethodError)
+Did you mean?  first
+Megans-MacBook-Air:tts meganbursey$ ruby rubyhomework15.rb
+give me a word
+elephant
+["e", "l", "e", "p", "h", "a", "n", "t"]elephantway
+Megans-MacBook-Air:tts meganbursey$ ruby rubyhomework15.rb
+give me a word
+x
+["x"]rubyhomework15.rb:86:in `<main>': undefined method `shift' for "x":String (NoMethodError)
+Megans-MacBook-Air:tts meganbursey$ ruby rubyhomework15.rb
+give me a word
+a
+["a"]away
+Megans-MacBook-Air:tts meganbursey$ ruby rubyhomework15.rb
+give me a word
+cat
+["c", "a", "t"]rubyhomework15.rb:86:in `<main>': undefined method `shift' for "c":String (NoMethodError)
+Megans-MacBook-Air:tts meganbursey$ ruby rubyhomework15.rb
+give me a word
+hello
+["h", "e", "l", "l", "o"]h
+["e", "l", "l", "o"]Megans-MacBook-Air:tts meganbursey$ ruby rubyhomework15.rb
+give me a word
+owl
+["o", "w", "l"]owlway
+Megans-MacBook-Air:tts meganbursey$ ruby rubyhomework15.rb
+give me a word
+cat
+["c", "a", "t"]c
+atcay
+Megans-MacBook-Air:tts meganbursey$ 
